@@ -88,9 +88,8 @@ var getUserRepos = function (user) {
             // append container to the dom
             repoContainerEl.appendChild(repoEl);
         }
-
-        userFormEl.addEventListener("submit", formSubmitHandler);
-
     }
+
 }
+        userFormEl.addEventListener("submit", formSubmitHandler);
 
